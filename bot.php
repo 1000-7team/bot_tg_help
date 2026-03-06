@@ -1,11 +1,11 @@
 <?php
 // Токен вашего бота от @BotFather
-define('BOT_TOKEN', 'ВАШ_ТОКЕН_БОТА');
+define('BOT_TOKEN', '8650860630:AAE5Ymz33gZovwFCHAF5dnmxvqM--vN86kg');
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 
 // ID администратора (нужно получить у @userinfobot)
 define('ADMIN_USERNAME', 'kurul_tg'); // username админа
-define('ADMIN_ID', 'ВАШ_TELEGRAM_ID'); // ID админа (замените на реальный)
+define('ADMIN_ID', '8529544995'); // ID админа (замените на реальный)
 
 // Файл для хранения новостей
 define('NEWS_FILE', 'news.json');
